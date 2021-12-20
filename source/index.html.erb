@@ -7,13 +7,14 @@
   </div>
   <div class="container">
     <% data.products.each do |product|  %>
-      <div class="card-trip" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url">
+      <div class="card-trip">
+        <img src="<%= image_path(product.image)%>">
         <div class="card-trip-infos">
           <div>
             <h2><%= product.name %></h2>
             <p><%= product.description %></p>
           </div>
-          <h2 class="card-trip-pricing"><i class="fas fa-bullseye"></i></h2>
+          <i class="fas fa-bullseye"></i>
         </div>
       </div>
     <% end %>
