@@ -1,8 +1,22 @@
-<div class="container mt-3">
+<div class="container mt-5">
   <div class="row justify-content-center">
     <div class="col">
       <h1>Hello there, I'm Joss Dixon</h1>
       <p>I'm a programmer from the UK, and these are a few things I've made.</p>
     </div>
   </div>
+  <div class="container">
+    <% data.products.each do |product|  %>
+      <div class="card-trip" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url">
+        <div class="card-trip-infos">
+          <div>
+            <h2><%= product.name %></h2>
+            <p><%= product.description %></p>
+          </div>
+          <h2 class="card-trip-pricing"><i class="fas fa-bullseye"></i></h2>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
 </div>
