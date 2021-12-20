@@ -1,6 +1,7 @@
 .card-trip {
   overflow: hidden;
-  background: white;
+  background: $yellow;
+  color: $black;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   margin: 16px;
   border-radius: 4px;
@@ -16,14 +17,14 @@
 }
 
 .card-trip h2 {
-  font-size: 16px;
+  font-size: 24px;
   font-weight: bold;
   margin: 0;
 }
 
 .card-trip p {
-  font-size: 12px;
-  opacity: .7;
+  font-size: 16px;
+  opacity: .9;
   margin: 0;
 }
 
