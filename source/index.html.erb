@@ -1,9 +1,22 @@
 <div class="container mt-5">
-  <div class="row justify-content-center">
-    <div class="container align-items-center">
-      <img src="assets/images/me.jpg" class="avatar-large">
-      <h2>Hello there, I'm Joss Dixon.</h2>
-      <p>I'm a programmer from the UK, and here are a few things I've made.</p>
+  <div class="row justify-content-center align-items-center">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col text-center">
+          <img src="assets/images/me_pro.jpg" class="avatar-square">
+        </div>
+        <div class="col">
+          <h2>Hello there, I'm Joss Dixon.</h2>
+          <p>I'm a programmer from the UK, and here are a few things I've made.</p>
+        </div>
+        <div class="col">
+          <% data.externals.each do |site| %>
+            <% link_to site.url class: 'external-link', target: 'blank' do %>
+              <i class="fas fa-bullseye"></i>
+            <% end %>
+          <% end %>
+        </div>
+      </div>
     </div>
   </div>
   <div class="container">
@@ -22,5 +35,6 @@
       </div>
     <% end %>
   </div>
+</div>
 </div>
 </div>
