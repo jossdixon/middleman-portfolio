@@ -5,8 +5,18 @@
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   margin: 16px;
   border-radius: 4px;
+  a {
+    color: $black;
+    transition: 1s;
+    &:hover {
+      color: $blue;
+    }
+    &:active {
+      color: $red;
+    }
+  }
   i {
-    color: black;
+    font-size: 32px;
   }
 }
 
@@ -64,6 +74,41 @@
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card-product {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  background: $yellow;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  color: $black;
+  border-radius: 4px;
+}
+
+.card-product img {
+  height: 100%;
+  width: 120px;
+  object-fit: cover;
+}
+
+.card-product h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-product p {
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.card-product .card-product-infos {
+  padding: 16px;
 }
 
 
