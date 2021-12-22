@@ -1,0 +1,9 @@
+a {
+  transition: 1s;
+  &:hover {
+    color: $blue
+  }
+  &:active {
+    color: $black
+  }
+}

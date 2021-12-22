@@ -1,0 +1,18 @@
+<div class="container mt-4">
+  <% link_to '/index.html', :relative => true do %>
+    <i class="fas fa-caret-square-left fa-2x"></i>
+  <% end %>
+  <h1>Get in touch</h1>
+  <form action="https://getform.io/f/00981570-e9be-4310-b135-fa9f4de81bce" method="POST">
+    <div class="form-group">
+      <input type="text" name="name" class="form-control" placeholder="Name" required=true>
+    </div>
+    <div class="form-group">
+      <input type="email" name="email" class="form-control" placeholder="Email" required=true>
+    </div>
+    <div class="form-group">
+      <textarea type="text" name="message" class="form-control" placeholder="Message..." required=true></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary w-100">Send</button>
+  </form>
+</div>

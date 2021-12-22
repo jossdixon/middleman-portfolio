@@ -5,36 +5,42 @@
         <div class="col text-center">
           <img src="assets/images/me_pro.jpg" class="avatar-square">
         </div>
-        <div class="col">
-          <h2>Hello there, I'm Joss Dixon.</h2>
+        <div class="col text-center">
+          <h1>Hello there,</h1>
+          <h1>I'm Joss Dixon.</h1>
           <p>I'm a programmer from the UK, and here are a few things I've made.</p>
         </div>
-        <div class="col">
-          <% data.externals.each do |site| %>
-            <% link_to site.url class: 'external-link', target: 'blank' do %>
-              <span><i class="<%= site.name %>"></i></span>
+        <div class="col text-center">
+          <div class="links">
+            <a href="https://www.linkedin.com/in/jossdixon/" target="blank"><i class="fab fa-linkedin fa-2x"></i></a>
+            <br>
+            <a href="https://github.com/jossdixon"><i class="fab fa-github-square fa-2x"></i></a>
+            <br>
+            <% link_to '/contact.html', :relative => true do %>
+              <i class="fas fa-envelope-square fa-2x"></i>
             <% end %>
-          <% end %>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="container">
-    <% data.products.each do |product|  %>
-      <div class="card-trip">
-        <img src="<%= image_path(product.image)%>">
-        <div class="card-trip-infos">
-          <div>
-            <h2><%= product.name %></h2>
-            <p><%= product.description %></p>
-          </div>
-          <% link_to product.url, class: 'external-link', target: 'blank' do %>
-            <i class="fas fa-bullseye"></i>
-          <% end %>
+</div>
+<div class="container">
+  <% data.products.each do |product|  %>
+    <div class="card-trip">
+      <img src="<%= image_path(product.image)%>">
+      <div class="card-trip-infos">
+        <div>
+          <h2><%= product.name %></h2>
+          <p><%= product.description %></p>
         </div>
+        <% link_to product.url, class: 'external-link', target: 'blank' do %>
+          <i class="fas fa-bullseye"></i>
+        <% end %>
       </div>
-    <% end %>
-  </div>
+    </div>
+  <% end %>
+</div>
 </div>
 </div>
 </div>
