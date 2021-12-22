@@ -1,29 +1,19 @@
 <div class="container mt-5">
-  <div class="row justify-content-center align-items-center">
-    <div class="container">
-      <div class="row d-flex justify-content-center">
-        <div class="col text-center">
-          <img src="assets/images/me_pro.jpg" class="avatar-square">
-        </div>
-        <div class="col text-center">
-          <h1>Hello there,</h1>
-          <h1>I'm Joss Dixon.</h1>
-          <p>I'm a programmer from the UK, and here are a few things I've made.</p>
-        </div>
-        <div class="col text-center">
-          <div class="links">
-            <a href="https://www.linkedin.com/in/jossdixon/" target="blank"><i class="fab fa-linkedin fa-2x"></i></a>
-            <br>
-            <a href="https://github.com/jossdixon"><i class="fab fa-github-square fa-2x"></i></a>
-            <br>
-            <% link_to '/contact.html', :relative => true do %>
-              <i class="fas fa-envelope-square fa-2x"></i>
-            <% end %>
-          </div>
-        </div>
-      </div>
+  <div class="col text-center">
+    <div class="links">
+      <a href="https://www.linkedin.com/in/jossdixon/" target="blank"><i class="fab fa-linkedin fa-2x"></i></a>
+      <a href="https://github.com/jossdixon"><i class="fab fa-github-square fa-2x"></i></a>
+      <% link_to '/contact.html', :relative => true do %>
+        <i class="fas fa-envelope-square fa-2x"></i>
+      <% end %>
+    </div>
+    <img src="assets/images/me_pro.jpg" class="avatar-square">
+    <div class="container p-3">
+      <h1>Hello there, I'm Joss Dixon.</h1>
+      <p>I'm a programmer from the UK, and here are a few things I've made.</p>
     </div>
   </div>
+</div>
 </div>
 <div class="container">
   <% data.products.each do |product|  %>
