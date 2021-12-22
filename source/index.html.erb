@@ -12,7 +12,7 @@
         <div class="col">
           <% data.externals.each do |site| %>
             <% link_to site.url class: 'external-link', target: 'blank' do %>
-              <i class="fas fa-bullseye"></i>
+              <span><i class="<%= site.name %>"></i></span>
             <% end %>
           <% end %>
         </div>
