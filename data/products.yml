@@ -1,3 +1,8 @@
+- name: Shaken, Stirred
+  description: For cocktail lovers everywhere.
+  image: shaken_stirred.png
+  url: https://shaken-stirred.herokuapp.com/
+
 - name: Taskme
   description: A nifty little web app for managing daily tasks.
   image: taskme.jpg
