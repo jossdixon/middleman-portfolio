@@ -39,3 +39,9 @@
   image: ./js30/clock.png
   url: https://jossdixon.github.io/js30/02-clock/index.html
   category: js30
+
+- name: CSS & JS
+  description: Manipulating CSS properties with JavaScript.
+  image: ./js30/cssjs.png
+  url: https://jossdixon.github.io/js30/03-css-and-js/index.html
+  category: js30
