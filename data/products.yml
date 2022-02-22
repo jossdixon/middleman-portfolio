@@ -1,29 +1,41 @@
 - name: Shaken, Stirred
   description: For cocktail lovers everywhere.
-  image: shaken_stirred.png
+  image: ./rails/shaken_stirred.png
   url: https://shaken-stirred.herokuapp.com/
   category: rails
 
 - name: Taskme
   description: A nifty little web app for managing daily tasks.
-  image: taskme.jpg
+  image: ./react-vue/taskme.jpg
   url: https://taskme-today.netlify.app/
   category: react
 
 - name: The Blender
   description: Help employees be more productive by eliminating paperwork.
-  image: Blender.png
+  image: ./rails/Blender.png
   url: https://youtu.be/OP88DtltO2Y?t=1855
   category: rails
 
 - name: Deckfinder
   description: Be more competitive with greater access to trading card decks.
-  image: Deckfinder.png
+  image: ./rails/Deckfinder.png
   url: https://vimeo.com/673219184
   category: rails
 
 - name: Tennis Pro Kit
   description: Keep track of what your favourite tennis players are using.
-  image: TennisProKit.png
+  image: ./rails/TennisProKit.png
   url: https://tennis-pro-kit.herokuapp.com/
   category: rails
+
+- name: Drum Kit
+  description: Bang the drums in your browser!
+  image: ./js30/drumkit.png
+  url: https://jossdixon.github.io/js30/01-drum-kit/index.html
+  category: js30
+
+- name: Clock
+  description: Have you lost all other means of checking the time?
+  image: ./js30/clock.png
+  url: https://jossdixon.github.io/js30/02-clock/index.html
+  category: js30
