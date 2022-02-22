@@ -2,23 +2,28 @@
   description: For cocktail lovers everywhere.
   image: shaken_stirred.png
   url: https://shaken-stirred.herokuapp.com/
+  category: rails
 
 - name: Taskme
   description: A nifty little web app for managing daily tasks.
   image: taskme.jpg
   url: https://taskme-today.netlify.app/
+  category: react
 
 - name: The Blender
   description: Help employees be more productive by eliminating paperwork.
   image: Blender.png
   url: https://youtu.be/OP88DtltO2Y?t=1855
+  category: rails
 
 - name: Deckfinder
   description: Be more competitive with greater access to trading card decks.
   image: Deckfinder.png
-  url: https://pacific-anchorage-05310.herokuapp.com/
+  url: https://vimeo.com/673219184
+  category: rails
 
 - name: Tennis Pro Kit
   description: Keep track of what your favourite tennis players are using.
   image: TennisProKit.png
   url: https://tennis-pro-kit.herokuapp.com/
+  category: rails
