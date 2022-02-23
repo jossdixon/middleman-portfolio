@@ -51,3 +51,9 @@
   image: ./react-vue/reactiontimer.png
   url: https://whatsyourspeed.netlify.app/
   category: vue
+
+- name: Flex Gallery
+  description: Using JavaScript to trigger transitions.
+  image: ./js30/flex-gallery.png
+  url: https://jossdixon.github.io/js30/05-flex-panel-gallery/index.html
+  category: js30
