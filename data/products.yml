@@ -4,6 +4,12 @@
   url: https://shaken-stirred.herokuapp.com/
   category: rails
 
+- name: Wordle Clone
+  description: My attempt at a clone of the hit word game.
+  image: ./react-vue/jordle.png
+  url: https://jossdixonwordle.netlify.app/
+  category: vue
+
 - name: Taskme
   description: A nifty little web app for managing daily tasks.
   image: ./react-vue/taskme.jpg
@@ -57,9 +63,3 @@
   image: ./js30/flex-gallery.png
   url: https://jossdixon.github.io/js30/05-flex-panel-gallery/index.html
   category: js30
-
-- name: Wordle Clone
-  description: My attempt at a clone of the hit word game.
-  image: ./react-vue/jordle.png
-  url: https://jossdixonwordle.netlify.app/
-  category: vue
