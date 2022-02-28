@@ -5,7 +5,7 @@
   category: rails
 
 - name: Wordle Clone
-  description: My attempt at a clone of the hit word game.
+  description: My copy of the hit word game.
   image: ./react-vue/jordle.png
   url: https://jossdixonwordle.netlify.app/
   category: vue
