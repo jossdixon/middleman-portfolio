@@ -10,6 +10,12 @@
   url: https://jossdixonwordle.netlify.app/
   category: vue
 
+- name: React Blog
+  description: An efficient blogging site.
+  image: ./react-vue/reactblog.png
+  url: https://dixonreactblog.netlify.app/
+  category: react
+
 - name: Taskme
   description: A nifty little web app for managing daily tasks.
   image: ./react-vue/taskme.jpg
