@@ -1,29 +1,30 @@
+
+- name: Wordle Clone
+  description: My copy of the hit word game, made in Vue.
+  image: ./react-vue/jordle.png
+  url: https://jossdixonwordle.netlify.app/
+  category: vue
+
+- name: Joblog
+  description: An efficient blogging site, with React frontend and a Rails API.
+  image: ./react-vue/reactblog.png
+  url: https://dixonreactblog.netlify.app/
+  category: react
+
+- name: Joblog
+  description: An efficient blogging site, with React frontend and a Rails API.
+  image: ./react-vue/reactblog.png
+  url: https://dixonreactblog.netlify.app/
+  category: rails
+
 - name: Shaken, Stirred
   description: For cocktail lovers everywhere.
   image: ./rails/shaken_stirred.png
   url: https://shaken-stirred.herokuapp.com/
   category: rails
 
-- name: Wordle Clone
-  description: My copy of the hit word game.
-  image: ./react-vue/jordle.png
-  url: https://jossdixonwordle.netlify.app/
-  category: vue
-
-- name: Joblog (Under Construction)
-  description: An efficient blogging site, with React frontend and a Rails API.
-  image: ./react-vue/reactblog.png
-  url: https://dixonreactblog.netlify.app/
-  category: react
-
-- name: Joblog (Under Construction)
-  description: An efficient blogging site, with React frontend and a Rails API.
-  image: ./react-vue/reactblog.png
-  url: https://dixonreactblog.netlify.app/
-  category: rails
-
 - name: Taskme
-  description: A nifty little web app for managing daily tasks.
+  description: A nifty little web app for managing daily tasks, made with React.
   image: ./react-vue/taskme.jpg
   url: https://taskme-today.netlify.app/
   category: react
