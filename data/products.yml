@@ -76,3 +76,9 @@
   image: ./js30/flex-gallery.png
   url: https://jossdixon.github.io/js30/05-flex-panel-gallery/index.html
   category: js30
+
+- name: HTML5 Canvas
+  description: Paint the screen!
+  image: ./js30/html5canvas.png
+  url: https://jossdixon.github.io/js30/06-html5-canvas/index.html
+  category: js30
